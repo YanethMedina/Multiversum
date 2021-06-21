@@ -1,0 +1,59 @@
+*{
+	margin-top: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000000;
+	background-image: url("../Imagenes/Fondo.GIF"); 
+	font-family: "segoe UI";
+	text-align: justify;
+}
+h1{
+	font-size: 72px;  
+	background: -webkit-linear-gradient(left top, #0000FF, #FF0000);
+	background: linear-gradient(to bottom right, #0000FF, #FF0000);
+	-webkit-background-clip: text;  
+	-webkit-text-fill-color: transparent; 
+	text-shadow: 18px 10px 35px #000000;
+	margin-bottom: 3px;
+	text-align: center;
+	column-span: all;
+
+}
+#Libro{
+	width: 100%;
+	height: 30%; 
+	display: block;	
+}
+#Escenas{
+	width: 100%;
+	height: 30%;
+	display: block;		
+}
+#Pelicula{
+	width: 100%;
+	height: 30%;
+	display: block;	
+}
+#Personajes{
+	width: 100%;
+	height: 30%; 
+	display: block;	
+	}
+main{
+	background-color: #CCFFFF;
+	padding: 15px;
+	margin: 215px;
+	max-width: 1000px;
+	display: block;
+	column-count: 3; 
+	column-gap: 20px;
+	column-width: 120px;
+}
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #66FFFF;
+}

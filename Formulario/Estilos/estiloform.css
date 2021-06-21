@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px verdana, sans-serif;
+}
+h2{
+	font:bold 14px verdana, sans-serif;
+}
+header, section, footer, aside, article, figure,  figcaption, hgroup{
+	display: block;
+}
+body{
+	text-align: center;
+	font: 14px/21px "lucida sans", "lucida grande", "lucida sans unicode", sans-serif;
+}
+#contenido{
+	width: 960px;
+	margin: 15px;
+	text-align: left;
+}
+#titulo{
+	font-size: 60px;
+	background: #CCCCFF;
+	border: 5px solid #660099;
+	padding: 20px;
+	border-radius: 30px;
+	color: #FF0066;
+	text-shadow: 18px 10px 15px #00FFFF;
+	text-align: center;
+	box-shadow: 0px 0px 15px #CC99CC, 20px 20px 15px #CC99CC inset;
+}
+#subtitulo{
+	font-size: 14px;
+	padding-top: 20px;
+}
+#navegacion{
+	background: #CCFFFF;
+	padding: 12px 20px;
+	margin-top: 10px;
+}
+#menu a{
+	border: 2px solid #FF66FF;
+	background: #CCCCCC;
+	color: #FFFFFF;
+	border-radius: 10px;
+	width: 285px;
+	box-shadow: 5px 5px 3px #FF99CC, 5px 5px 5px #FF99CC inset;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 15px verdana, sans-serif;
+	text-align: center;
+}
+#seccion{
+	padding: 8px;
+	text-align: justify;
+	float: left;
+	width: 660px;
+	margin: 20px;
+	margin-left: 0px;
+	background: #FFCCCC;
+	clear: left;
+}
+#lateral{
+	float: left;
+	width: 230px;
+	margin: 20px 0px;
+	margin-left: 0px;
+	padding: 15px;
+	background: #CCCCCC;
+	text-align: justify;
+	box-shadow: 0px 0px 15px #FF33FF, 0px 10px 15px #FF00FF inset;
+}
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #66FFFF;
+}
+.contacto h2, .contacto label{
+	font-family: Georgia, Times, "Times Nem Roman", sans-serif;
+
+}
+.contacto ul{
+	width: 750px;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+.contacto li{
+	padding: 12px;
+	position: relative;
+}
+.contacto h2{
+	margin: 0px;
+	display: inline;
+}
+.contacto label{
+	width: 150px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	padding: 3px;
+}
+.contacto input{
+	height: 20px;
+	width: 220px;
+	padding: 5px 8px;
+}
+.contacto textarea{
+	padding: 8px;
+	width: 300px;
+}
+
+.contacto input, .contacto textarea{
+	border: 1px solid #00FFFF;
+	box-shadow: 5px 3px 3px #66FFCC, 0px 10px 15px #99FFFF inset;
+	border-radius: 5px; 
+}
+.envia, .borra, .inicia{
+	border: 2px solid #00FFFF;
+	background: #CCCCFF;
+	color: #FFFFFF;
+	border-radius: 10px;
+	width: 200px;
+	box-shadow: 5px 5px 3px #99FFFF, 5px 5px 5px #99FFFF inset;
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font: bold 15px verdana, sans-serif;
+	text-align: center;
+}
